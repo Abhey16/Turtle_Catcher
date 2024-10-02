@@ -20,3 +20,20 @@ This project implements a "Turtle_Catcher" game using ROS2 and the Turtlesim pac
 
 * Turtle.msg and TurtleArray.msg
 * CatchTurtle.srv
+
+### Functionality
+
+* Spawn turtles randomly
+* Control the main turtle to catch others
+* Track and update the list of alive turtles
+* Implement catching mechanism
+
+### Concepts Implemented
+
+* ROS2 node creation and communication
+* Topic publishing and subscribing
+* Service client and server implementation
+* Custom message and service interfaces
+* Parameter handling
+* Launch file creation
+* Basic control algorithms (P controller)
