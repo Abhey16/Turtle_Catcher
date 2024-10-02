@@ -37,3 +37,33 @@ This project implements a "Turtle_Catcher" game using ROS2 and the Turtlesim pac
 * Parameter handling
 * Launch file creation
 * Basic control algorithms (P controller)
+
+---
+
+## Installation
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+1. Create a directory with a subfolder named **src** on your local machine.
+2. Navigate into the directory using Terminal and run:
+```
+colcon build
+```
+This will convert your directory into a ROS2 Workspace
+
+3. Clone the repository to your local machine:
+```
+git clone https://github.com/Abhey16/Design-and-Simulation-of-a-Mobile-Robot-with-ROS2.git
+```
+This will add ROS package in the **src** folder.
+
+4. Navigate to the root of ROS2 directory and build the project using colcon:
+```
+colcon build
+```
+5. Source the environment to set up the necessary ROS2 variables:
+```
+source install/setup.bash
+```
+6. Now launch the Gazebo environment
+```
+ros2 launch my_robot_bringup turtle_catcher.launch.py
+```
